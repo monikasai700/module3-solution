@@ -1,0 +1,68 @@
+body {
+  font-size: 16px;
+  color: #fff;
+  background-color: white;
+  border:0px;
+}
+
+/** HEADER **/
+#header-nav {
+  background-color: grey;
+  border-radius: 0;
+  border: 1px solid black;
+}
+#nav-list
+{
+  text-align: center;
+  color: black;
+}
+.navbar-brand{
+  padding-top: -25px;
+}
+.navbar-brand h1 {
+  font-family: 'Lora', serif;
+  color: black;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid black;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+}
+#collapsable-nav hr{
+  display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
+}
+/*********main content**/
+.text-center{
+  color: black;
+}
+.jumbotron{
+color: black;
+text-align: justify;
+}
+.jumbotron h3{
+  text-align: center;
+}
+.container .jumbotron {
+    
+    background-color: grey;
+  }
+  @media(min-width:375px)
+  {
+    .container .jumbotron{
+      height: 1000px;
+    }
+  }
